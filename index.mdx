@@ -1,71 +1,66 @@
 ---
 title: Introduction
-description: "Welcome to the home of your new documentation"
+description: "Your codebase, finally easy to explore."
 ---
 
-<img
-  className="block dark:hidden"
-  src="/images/hero-light.png"
-  alt="Hero Light"
-/>
-<img
-  className="hidden dark:block"
-  src="/images/hero-dark.png"
-  alt="Hero Dark"
-/>
-
-## Setting up
-
-The first step to world-class documentation is setting up your editing environments.
+Graptor is the open source graph engine that understand your complex codebases. 
+so you can build, debug, and ship faster.
 
 <CardGroup cols={2}>
   <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
+    title="Install via npm"
+    icon="npm"
+    href="https://www.npmjs.com/package/graptor"
   >
-    Get your docs set up locally for easy development
+    Get started instantly with a single command.
   </Card>
   <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
+    title="View on GitHub"
+    icon="github"
+    href="https://github.com/sarthaksharma27/graptor"
   >
-    Preview your changes before you push to make sure they're perfect
+    Explore the source, contribute, or fork your own version.
   </Card>
 </CardGroup>
 
-## Make it yours
+### Why Graptor?
 
-Update your docs to your brand and add valuable content for the best user conversion.
+Modern codebases are too large and dynamic to understand manually. Tools like Cursor use LLMs to help but they all need one key thing
+
+A structured understanding of your codebase.
+
+Graptor is an open source engine that gives you just that. It reads your entire project and extracts a **semantic code graph**. For Example:
+
+- Function declarations
+- Who calls who
+
+Graptor gives you clean, structured JSON that represents your entire codebase as a
+semantic graph
+A machine readable graph that you can feed into whatever you want.
+
+
+### What Can You Build With It?
+
+- Query your code: "Where is this function used?"
+- Visualize dependencies across your repo
+- Embed graph in a vector database + run LLM agents
+- Build your own Greptile/Cursor-like tool, powered by real structure
+
+Grapho is the missing link between static code and intelligent dev tools.
+
+### Supported Languages
+
+Graptor currently supports JavaScript, TypeScript, JSX, and TSX out of the box.
+We're actively working on adding support for all major languages
+
+### Learn More
 
 <CardGroup cols={2}>
   <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
+    title="How Graptor works"
+    icon="gears"
+    href="https://www.npmjs.com/package/graptor"
   >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/content/components/accordions"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
+    Understand How Graptor works internally.
   </Card>
 </CardGroup>

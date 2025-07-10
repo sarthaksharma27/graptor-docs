@@ -17,7 +17,7 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
+              "Getting Started",
               "development"
             ]
           },
@@ -63,14 +63,9 @@
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
+          "anchor": "Graptor Home",
           "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "icon": "house"
         }
       ]
     }
