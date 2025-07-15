@@ -14,11 +14,17 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "User Manual",
             "pages": [
               "index",
-              "Getting Started",
-              "development"
+              "quickstart"
+            ]
+          },
+          {
+            "group": "How Graptor Works",
+            "pages": [
+              "what is Happeing internally",
+              "Codebase context"
             ]
           },
           {

@@ -1,0 +1,32 @@
+---
+title: 'Getting Started'
+description: 'An overview of what Graptor can do'
+---
+
+<Info>
+  **Prerequisite**: Please install ```Node.js``` (version 19 or higher) before proceeding. <br />
+</Info>
+
+Follow these steps to install and run Graptor on your codebase:
+
+**Step 1**: Install Graptor:
+
+<CodeGroup>
+
+  ```bash npm
+  npm i graptor
+  ```
+
+```bash yarn
+yarn global add mintlify
+```
+
+</CodeGroup>
+
+**Step 2**: Navigate to the codebase folder or specific directory:
+
+```bash
+graptor run <folder name>
+```
+
+It parse the codebase and make a code garph out of it in .graptor folder with file name `graptor.graph.json`.
