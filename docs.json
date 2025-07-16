@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Graptor",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -28,12 +28,6 @@
         ]
       },
       {
-        "group": "API Documentation",
-        "pages": [
-          "api-reference/introduction"
-        ]
-      },
-      {
         "group": "Endpoint Examples",
         "pages": [
           "api-reference/endpoint/get",
@@ -49,30 +43,21 @@
           "anchor": "Documentation",
           "href": "https://docs-graptor.tech",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Graptor Home",
-          "href": "https://mintlify.com/blog",
-          "icon": "house"
         }
       ]
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://x.com/sarthaksharma85"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Github",
+      "href": "https://github.com/sarthaksharma27/graptor"
     }
   },
   "footer": {
