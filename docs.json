@@ -14,9 +14,7 @@
         "group": "User Manual",
         "pages": [
           "index",
-          "quickstart",
-          "Key features",
-          "querying the codebase"
+          "quickstart"
         ]
       },
       {
