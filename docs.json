@@ -21,8 +21,7 @@
         "group": "How Graptor Works",
         "pages": [
           "what is Happeing internally",
-          "Codebase context",
-          "Understand graptor.graph.json"
+          "Codebase context"
         ]
       }
     ],
