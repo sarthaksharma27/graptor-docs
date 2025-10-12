@@ -3,8 +3,8 @@ title: Introduction
 description: "Your codebase, finally easy to explore."
 ---
 
-Graptor is the open source engine that understand your complex codebases and Turn 
-your complex codebase into a queryable, AI-ready knowledge base.
+Graptor turns your entire repository into a structured, vectorized representation giving LLMs
+the context they need to reason about your code without hallucination.
 
 <CardGroup cols={2}>
   <Card
@@ -32,29 +32,31 @@ in Python or C++, and switching between each and seeing how they interact makes 
 to finish the features._
 
 Modern codebases are too large and dynamic to understand manually.
-Tools like Cursor use LLMs to help but they all need one key thing
-
+Tools like Cursor use LLMs to help but they all need one key thing:
 
 A structured understanding of your codebase.
 
-Graptor is an open source engine that gives you just that. It reads your entire project and extracts a **semantic code graph**. For Example:
+Graptor is an open source engine that gives you just that. It reads your entire project, builds 
+a semantic code graph, and then transforms that structure into vector embeddings — the universal 
+language models can understand.
+
+For example, Graptor captures:
 
 - Function declarations
 - Who calls who
 
-Graptor gives you clean, structured JSON that represents your entire codebase as a
-semantic graph.
-A machine readable graph that you can feed into whatever you want.
+The result: a vectorized representation of your codebase a machine readable map that can power
+any intelligent tooling you build on top of it.
 
 
 ### What Can You Build With It?
 
-- Query your code: "Where is this function used?"
-- Visualize dependencies across your repo
-- Embed graph in a vector database + run LLM agents
-- Build your own Greptile/Cursor-like tool, powered by real structure
+- LLM-powered code queries – build tools that can answer questions like “Where is this function used?"
+- Dependency visualization – generate structured data to map how modules and functions interact across your repo.
+- AI-native indexing – Embed your code graph into a vector database and run LLM agents on top.
+- Build your own Greptile or Cursor-like tool – powered by real structural understanding, not fuzzy pattern matching.
 
-Graptor is the missing link between static code and intelligent dev tools.
+Graptor is the missing link between static code and intelligent developer tools.
 
 ### Supported Languages
 
