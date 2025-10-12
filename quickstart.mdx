@@ -1,10 +1,11 @@
 ---
 title: 'Getting Started'
-description: 'An overview of what Graptor can do'
+description: 'A step-by-step guide to generating semantic embeddings with Graptor'
 ---
 
 <Info>
   **Prerequisite**: Please install ```Node.js``` (version 19 or higher) before proceeding. <br />
+   Ensure you have a codebase ready to index.
 </Info>
 
 Follow these steps to install and run Graptor on your codebase:
@@ -25,4 +26,8 @@ Follow these steps to install and run Graptor on your codebase:
 graptor run <folder name>
 ```
 
-It parse the codebase and make a code garph out of it in .graptor folder with file name `graptor.graph.json`.
+After running Graptor, you’ll find a .graptor folder inside your project directory containing:
+
+**code-graph.json** – internal representation of your codebase as a structured semantic graph.
+
+**embeddings.json** – vector embeddings of your code chunks, ready to be stored in a vector database or consumed by AI agents.
