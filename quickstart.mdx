@@ -26,8 +26,18 @@ Follow these steps to install and run Graptor on your codebase:
 graptor run <folder name>
 ```
 
-After running Graptor, you’ll find a .graptor folder inside your project directory containing:
+Graptor internally Parses your code with ASTs and Builds a semantic code graph.
 
-**code-graph.json** – internal representation of your codebase as a structured semantic graph.
+At this point, **code-graph.json** is created. You can stop here if you only need the code graph.
 
-**embeddings.json** – vector embeddings of your code chunks, ready to be stored in a vector database or consumed by AI agents.
+**Step 3**: Generate vector embeddings:
+
+Do you want to embed these chunks into vectors now? (Y/n)
+
+If you choose **Yes**, you can select:
+
+- **Open-source model** (default, no API key needed)  
+- **Your own model** (coming soon!)
+
+Graptor then converts each code chunk into a **vector embedding** and saves the 
+result in **embeddigs.json**
